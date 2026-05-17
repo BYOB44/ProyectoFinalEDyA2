@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Facturación Empresarial - EDyA II
 
 Proyecto académico que simula una empresa que necesita gestionar departamentos, trabajadores, facturas y una cola de pagos. El sistema está dividido en:
@@ -189,3 +190,7 @@ El sistema permite:
 
 ---
 
+=======
+# ProyectoFinalEDyA2
+En este repositorio se realizara el proyecto final de EDyA2 
+>>>>>>> acadb66bc5b0f4c6832fb63d1ada2db8e97c9499
