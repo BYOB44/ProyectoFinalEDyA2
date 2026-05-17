@@ -1,0 +1,43 @@
+.topbar {
+  height: 84px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 1px solid #e5e9f2;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #11213d;
+}
+
+.topbar p {
+  margin: 4px 0 0;
+  color: #69758c;
+}
+
+.userBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #11213d;
+}
+
+.userBox small {
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #edf4ff;
+  color: #2f80ed;
+  font-weight: 700;
+}
+
+.userBox button {
+  border: 0;
+  border-radius: 12px;
+  padding: 9px 10px;
+  background: #f0f3f8;
+  cursor: pointer;
+}

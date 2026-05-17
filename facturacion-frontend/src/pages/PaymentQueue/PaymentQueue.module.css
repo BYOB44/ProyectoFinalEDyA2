@@ -1,0 +1,31 @@
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.nextCard {
+  margin-bottom: 22px;
+  padding: 22px;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(135deg, #0f2147, #2f80ed);
+}
+
+.nextCard span {
+  color: #d5e4ff;
+}
+
+.nextCard h3 {
+  margin: 8px 0 6px;
+  font-size: 26px;
+}
+
+.nextCard p {
+  margin: 0 0 10px;
+  color: #d5e4ff;
+}
+
+.nextCard strong {
+  font-size: 30px;
+}

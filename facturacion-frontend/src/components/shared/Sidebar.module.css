@@ -1,0 +1,58 @@
+.sidebar {
+  width: 260px;
+  padding: 22px;
+  color: #e8eefc;
+  background: #0f2147;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #2f80ed;
+  font-weight: 800;
+}
+
+.brand strong,
+.brand small {
+  display: block;
+}
+
+.brand small {
+  color: #b8c5df;
+  margin-top: 2px;
+}
+
+.nav {
+  display: grid;
+  gap: 8px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #d7e2f5;
+  padding: 12px 14px;
+  border-radius: 14px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.active {
+  color: white;
+  background: #2f80ed;
+}

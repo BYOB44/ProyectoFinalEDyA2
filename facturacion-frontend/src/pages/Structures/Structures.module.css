@@ -1,0 +1,58 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card,
+.cardWide {
+  padding: 20px;
+  border-radius: 18px;
+  background: white;
+  border: 1px solid #e5e9f2;
+}
+
+.cardWide {
+  grid-column: 1 / -1;
+}
+
+.card h3,
+.cardWide h3 {
+  margin: 0 0 8px;
+  color: #11213d;
+}
+
+.card p,
+.cardWide p {
+  margin: 0 0 12px;
+  color: #69758c;
+}
+
+.card small,
+.graphList small {
+  display: block;
+  padding: 7px 0;
+  color: #43506a;
+  border-bottom: 1px solid #edf0f6;
+}
+
+.tree {
+  margin: 0;
+  padding-left: 18px;
+  color: #43506a;
+}
+
+.tree span {
+  display: inline-block;
+  margin: 4px 0;
+  padding: 5px 8px;
+  border-radius: 10px;
+  background: #edf4ff;
+  color: #2f80ed;
+  font-weight: 700;
+}
+
+.graphList {
+  display: grid;
+  gap: 4px;
+}
