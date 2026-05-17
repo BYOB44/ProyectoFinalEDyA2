@@ -1,0 +1,32 @@
+.tableBox {
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #e5e9f2;
+  background: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #edf0f6;
+}
+
+th {
+  color: #69758c;
+  background: #f8faff;
+  font-size: 13px;
+}
+
+td {
+  color: #1b2a44;
+}
+
+.empty {
+  text-align: center;
+  color: #7d889b;
+}

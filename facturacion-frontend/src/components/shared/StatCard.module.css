@@ -1,0 +1,25 @@
+.card {
+  padding: 20px;
+  border-radius: 18px;
+  background: white;
+  border: 1px solid #e5e9f2;
+  box-shadow: 0 10px 25px rgba(17, 33, 61, 0.05);
+}
+
+.card span {
+  display: block;
+  color: #69758c;
+  margin-bottom: 8px;
+}
+
+.card strong {
+  display: block;
+  color: #11213d;
+  font-size: 28px;
+}
+
+.card small {
+  display: block;
+  margin-top: 8px;
+  color: #778399;
+}
