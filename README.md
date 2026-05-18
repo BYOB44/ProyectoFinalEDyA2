@@ -1,6 +1,12 @@
-<<<<<<< HEAD
 # Sistema de Facturación Empresarial - EDyA II
+---
+## Integrantes:
 
+- Alejandro Molina Lara
+- Santiago Gutierrez
+- Juan Jose Bernal
+
+---
 El proyecto consiste en una aplicación web para administrar la facturación interna de una empresa. El sistema permite manejar departamentos, trabajadores, facturas y pagos mediante un flujo organizado. La lógica central del proyecto está en la cola de pagos, donde las facturas pendientes se procesan según una política FIFO o por prioridad y está dividido en:
 
 - **Frontend:** React + JavaScript + Vite.
@@ -9,11 +15,11 @@ El proyecto consiste en una aplicación web para administrar la facturación int
 - **Seguridad:** Login real con JWT y roles.
 - **Estructuras de datos:** Queue, Stack, Tree, Heap y Graph.
 
-## Problema que resuelve
+## Problema que resuelve:
 
 En muchas empresas pequeñas, las facturas, pagos internos, viáticos, comisiones y desprendibles se manejan de forma manual o desordenada. Esto puede generar pérdida de información, pagos duplicados, facturas sin responsable y falta de trazabilidad. Este sistema organiza el proceso y evita que se paguen facturas inexistentes o trabajadores no registrados.
 
-## Modelo de datos
+## Modelo de datos:
 
 - Un departamento puede tener muchos trabajadores.
 - Un departamento puede tener subdepartamentos.
@@ -22,15 +28,9 @@ En muchas empresas pequeñas, las facturas, pagos internos, viáticos, comisione
 - Un usuario tiene un rol y puede estar asociado a un trabajador.
 
 ---
-## Integrantes
 
-- Alejandro Molina Lara
-- Santiago Gutierrez
-- Juan Jose Bernal
 
----
-
-## Roles del sistema
+## Roles del sistema:
 
 | Rol | Permisos principales |
 | --- | ---------------------|
@@ -49,7 +49,7 @@ Tiene acceso limitado. Solo puede ver sus propias facturas o desprendibles asoci
 
 ---
 
-## Usuarios de prueba
+## Credenciales de Prueba / Prueba de Escritorio: 
 
 | Rol | Usuario | Contraseña |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ Tiene acceso limitado. Solo puede ver sus propias facturas o desprendibles asoci
 
 ---
 
-## Cómo ejecutar el backend
+## Cómo ejecutar el backend:
 
 ```bash
 cd facturacion-backend
@@ -88,7 +88,7 @@ Password: password
 
 ---
 
-## Cómo ejecutar el frontend
+## Cómo ejecutar el frontend:
 
 ```bash
 cd facturacion-frontend
@@ -104,9 +104,9 @@ http://localhost:5173
 
 ---
 
-## Estructuras de datos implementadas
+## Estructuras de datos implementadas:
 
-### 1. Queue / Cola
+### 1. Queue / Cola:
 
 Archivo:
 
@@ -116,7 +116,7 @@ facturacion-backend/src/main/java/com/empresa/facturacion/structures/CustomQueue
 
 Se usa para representar la cola FIFO de pagos pendientes. La primera factura pendiente que entra es la primera que se procesa.
 
-### 2. Stack / Pila
+### 2. Stack / Pila:
 
 Archivo:
 
@@ -126,7 +126,7 @@ facturacion-backend/src/main/java/com/empresa/facturacion/structures/CustomStack
 
 Se usa para representar el historial reciente de pagos procesados. El último pago realizado aparece primero.
 
-### 3. Tree / Árbol N-ario
+### 3. Tree / Árbol N-ario:
 
 Archivo:
 
@@ -136,7 +136,7 @@ facturacion-backend/src/main/java/com/empresa/facturacion/structures/DepartmentT
 
 Se usa para representar la jerarquía de departamentos y subdepartamentos.
 
-### 4. Heap / Cola de prioridad
+### 4. Heap / Cola de prioridad:
 
 Archivo:
 
@@ -146,7 +146,7 @@ facturacion-backend/src/main/java/com/empresa/facturacion/structures/PriorityPay
 
 Se usa para procesar facturas según prioridad: nómina y pagos importantes pueden pasar antes que viáticos u otros pagos de menor prioridad.
 
-### 5. Grafo
+### 5. Grafo:
 
 Archivo:
 
@@ -158,7 +158,7 @@ Se usa para representar conexiones internas entre áreas de la empresa y visuali
 
 ---
 
-## Estructura general
+## Estructura General / Componentizacion:
 
 ```txt
 facturacion-empresa/
@@ -186,10 +186,9 @@ facturacion-empresa/
 ```
 
 ---
-## Alcance del sistema
+## Alcance del sistema:
 
 El sistema permite:
-
 - Login con roles.
 - Menú privado según rol.
 - Gestión de departamentos.
@@ -201,6 +200,7 @@ El sistema permite:
 - Procesamiento de pagos.
 - Vista de estructuras de datos usadas en el proyecto.
 - Base de datos local H2.
+
 ---
 ## Enlaces del proyecto
 - Repositorio GitHub: `https://github.com/BYOB44/ProyectoFinalEDyA2#`
