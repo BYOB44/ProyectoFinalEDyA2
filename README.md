@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Sistema de Facturación Empresarial - EDyA II
 
-Proyecto académico que simula una empresa que necesita gestionar departamentos, trabajadores, facturas y una cola de pagos. El sistema está dividido en:
+El proyecto consiste en una aplicación web para administrar la facturación interna de una empresa. El sistema permite manejar departamentos, trabajadores, facturas y pagos mediante un flujo organizado. La lógica central del proyecto está en la cola de pagos, donde las facturas pendientes se procesan según una política FIFO o por prioridad y está dividido en:
 
 - **Frontend:** React + JavaScript + Vite.
 - **Backend:** Java + Spring Boot.
@@ -9,19 +9,24 @@ Proyecto académico que simula una empresa que necesita gestionar departamentos,
 - **Seguridad:** Login real con JWT y roles.
 - **Estructuras de datos:** Queue, Stack, Tree, Heap y Graph.
 
----
+## Problema que resuelve
 
+En muchas empresas pequeñas, las facturas, pagos internos, viáticos, comisiones y desprendibles se manejan de forma manual o desordenada. Esto puede generar pérdida de información, pagos duplicados, facturas sin responsable y falta de trazabilidad. Este sistema organiza el proceso y evita que se paguen facturas inexistentes o trabajadores no registrados.
+
+## Modelo de datos
+
+- Un departamento puede tener muchos trabajadores.
+- Un departamento puede tener subdepartamentos.
+- Un trabajador puede tener muchas facturas.
+- Una factura puede tener un pago asociado.
+- Un usuario tiene un rol y puede estar asociado a un trabajador.
+
+---
 ## Integrantes
 
 - Alejandro Molina Lara
-- Santiago gutierrez
+- Santiago Gutierrez
 - Juan Jose Bernal
-
-## Enlaces del proyecto
-
-- Repositorio GitHub: `https://github.com/BYOB44/ProyectoFinalEDyA2#`
----
-- Propuesta gráfica / Figma: `agregar enlace`
 
 ---
 
@@ -32,6 +37,15 @@ Proyecto académico que simula una empresa que necesita gestionar departamentos,
 | ADMIN | Dashboard, departamentos, trabajadores, facturas, pagos, estructuras |
 | TREASURER | Dashboard, facturas, cola de pagos, estructuras |
 | WORKER | Ver sus propias facturas |
+
+## Administrador:
+Tiene acceso completo al sistema. Puede gestionar departamentos, trabajadores, facturas, pagos y métricas generales.
+
+## Tesorero:
+Tiene acceso a facturas y cola de pagos. Su función principal es revisar facturas pendientes y procesar pagos.
+
+## Trabajador:
+Tiene acceso limitado. Solo puede ver sus propias facturas o desprendibles asociados.
 
 ---
 
@@ -160,6 +174,7 @@ facturacion-empresa/
 │       └── structures/
 └── facturacion-frontend/
     ├── package.json
+    ├── public
     └── src/
         ├── components/
         ├── context/
@@ -171,7 +186,6 @@ facturacion-empresa/
 ```
 
 ---
-
 ## Alcance del sistema
 
 El sistema permite:
@@ -187,10 +201,11 @@ El sistema permite:
 - Procesamiento de pagos.
 - Vista de estructuras de datos usadas en el proyecto.
 - Base de datos local H2.
-
 ---
-
-=======
-# ProyectoFinalEDyA2
-En este repositorio se realizara el proyecto final de EDyA2 
->>>>>>> acadb66bc5b0f4c6832fb63d1ada2db8e97c9499
+## Enlaces del proyecto
+- Repositorio GitHub: `https://github.com/BYOB44/ProyectoFinalEDyA2#`
+---
+- Propuesta gráfica / Figma: `https://www.figma.com/design/Om1T1Vq7I7ayJWbUqxMud1/Facturacion_SAJ?node-id=43-116&t=0Cd8a1NLtL6rUwCP-1`
+---
+- Documentacion: `https://docs.google.com/document/d/1ibFNL3AGuehmjJPag87AoS2K9Howj3rS3_2K0g9Ag1k/edit?usp=sharing`
+---
