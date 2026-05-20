@@ -205,7 +205,7 @@ El sistema permite:
 ## Enlaces del proyecto
 - Repositorio GitHub: `https://github.com/BYOB44/ProyectoFinalEDyA2#`
 ---
-- Propuesta gráfica / Figma: `https://www.figma.com/design/Om1T1Vq7I7ayJWbUqxMud1/Facturacion_SAJ?node-id=43-116&t=0Cd8a1NLtL6rUwCP-1`
+- Propuesta gráfica / Figma: `https://www.figma.com/design/Om1T1Vq7I7ayJWbUqxMud1/Facturacion_SAJ?m=auto&t=oU2Jytwyvm1JxARi-6`
 ---
 - Documentacion: `https://docs.google.com/document/d/1ibFNL3AGuehmjJPag87AoS2K9Howj3rS3_2K0g9Ag1k/edit?usp=sharing`
 ---
